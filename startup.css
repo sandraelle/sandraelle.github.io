@@ -1,0 +1,55 @@
+
+body,
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+header.startup{
+	background-position: center;
+	background-image: url(flower.jpeg);
+	background-size: cover;
+	height: 100%;
+} 
+
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+
+header.statup h1{
+	font-size: 2em;
+}
+
+.btn{
+	font-weight: 700px;
+	text-transform: uppercase;
+	 border-radius:300px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+
+.btn-primary{
+	background-color: #D46A6A;
+	border-color: #D32E8B;
+}
+.btn-primary:hover{
+	background-color: #FFD938;
+	border-color: #FFEC63;
+	cursor: pointer;
+	border-width: 5px;
+}
